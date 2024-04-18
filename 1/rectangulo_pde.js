@@ -1,11 +1,11 @@
-int r = 0;
-int g = 0;
-int b = 0;
-void setup(){
+let r = 0;
+let g = 0;
+let b = 0;
+function setup(){
   size(800,600);
 }
 
-void draw(){
+function draw(){
   background(95,158,160);
   noStroke();
   rect(300,200, 200,125);

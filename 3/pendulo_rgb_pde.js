@@ -1,11 +1,11 @@
-int z = 0;
-int nz = 5;
-int x = 200;
-int y = 0;
-void setup(){
+let z = 0;
+let nz = 5;
+let x = 200;
+let y = 0;
+function setup(){
   size(400,400);
 }
-void draw(){
+function draw(){
   background(245,245,240);
   size(400, 400);
 line(x, y, z, 300);
